@@ -1,0 +1,26 @@
+Hypothesis 1:women and children 1st
+      Sex AgeGroup  Survived
+0  female    Child  0.432432
+1  female     Teen  0.716418
+2  female    Adult  0.706009
+3  female   Senior  1.000000
+4    male    Child  0.370370
+5    male     Teen  0.117647
+6    male    Adult  0.198592
+7    male   Senior  0.103448
+
+Hypothesis 2:wealthy survived more
+method A:
+   Pclass  Survived
+0       1  0.629630
+1       2  0.472826
+2       3  0.242363
+
+ method B:
+     FareBin  Survived
+0        Low  0.197309
+1     Medium  0.303571
+2       High  0.454955
+3  Very High  0.581081
+
+Conclusion: Wealthier passengers  show higher survival, supporting the hypothesis.
